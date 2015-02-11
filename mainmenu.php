@@ -22,8 +22,8 @@
 		// this page consists of main menu which is included in every other page;            
 		echo "<br><br>";
 		// connect to the database iiitdm
-		$con=mysqli_connect("localhost","root","1234");
-		mysql_select_db("iiitdm");
+		$con=mysqli_connect("localhost","root","1234","iiitdm2");
+		//mysql_select_db("iiitdm2");
 		// Check connection
 		if (mysqli_connect_errno())
   		{

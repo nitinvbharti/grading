@@ -50,7 +50,7 @@
       $faculty_id=$_SESSION['faculty_id'];
       $password=$_SESSION['password'];
       
-      $con=mysqli_connect("localhost","root","1234","iiitdm");
+      $con=mysqli_connect("localhost","root","1234","iiitdm2");
       // Check connection
       if (mysqli_connect_errno())
       {
